@@ -27,3 +27,9 @@ The design selects one of four 1-bit inputs based on two select signals.
 │   └── mux4to1.vcd
 ├── .gitignore
 └── README.md
+
+## Simulation Waveform
+
+The RTL was simulated using Verilator and the resulting waveform was verified using GTKWave.
+
+![4-to-1 MUX GTKWave Waveform](screenshots/mux4to1_waveform.png)
